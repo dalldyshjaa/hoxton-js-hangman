@@ -1,0 +1,64 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.container {
+  width: 700px;
+  height: 1000px;
+  border: 1px solid black;
+  display: grid;
+  place-content: center;
+}
+.word-section {
+  height: 100px;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 5px;
+}
+.single-box,
+.solved-single-box {
+  display: grid;
+  place-items: center;
+  width: 50px;
+  height: 50px;
+  border-bottom: 1px solid black;
+  font-size: 35px;
+}
+.solved-single-box {
+  border-bottom: none;
+}
+.message {
+  text-align: center;
+}
+.report-section {
+  text-align: center;
+}
+.btn {
+  text-align: center;
+}
+.good-btn {
+  border: 1px solid green;
+}
+.bad-btn {
+  border: 1px solid black;
+}
+.button {
+  width: 70px;
+  height: 30px;
+  background-color: none;
+  border-radius: 5px;
+}
